@@ -3,19 +3,19 @@ class Rectangle:
         self._a = a
         self._b = b
 
-def area(self):
+    def area(self):
         return self._a * self._b
 
-def get_height(self):
+    def get_height(self):
         return self._a
     
-def get_width(self):
+    def get_width(self):
         return self._b
 
-def set_height(self, a):
+    def set_height(self, a):
     self._a = a
 
-def set_width(self, b):
+    def set_width(self, b):
     self._b = b
 
 main_rect = Rectangle(5, 4)
